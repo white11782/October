@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>675</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1049</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>媒体影音</string>
+    </property>
+    <widget class="QMenu" name="menuwenjian">
+     <property name="title">
+      <string>文件</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../图标库/dakai.ico</normaloff>../../图标库/dakai.ico</iconset>
+     </property>
+     <addaction name="actiondakaiwenjian"/>
+     <addaction name="actiondakaiwenjianjia"/>
+    </widget>
+    <widget class="QMenu" name="menugongju">
+     <property name="title">
+      <string>工具</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../图标库/gongju.ico</normaloff>../../图标库/gongju.ico</iconset>
+     </property>
+     <addaction name="actionjietu"/>
+    </widget>
+    <widget class="QMenu" name="menubofang">
+     <property name="title">
+      <string>播放</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../图标库/bofang.ico</normaloff>../../图标库/bofang.ico</iconset>
+     </property>
+     <addaction name="actionquanping"/>
+    </widget>
+    <widget class="QMenu" name="menushezhi">
+     <property name="title">
+      <string>设置</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../图标库/shezhi.ico</normaloff>../../图标库/shezhi.ico</iconset>
+     </property>
+     <addaction name="actionbofangshezhi"/>
+     <addaction name="actionrejianshezhi"/>
+     <addaction name="actionshengyinshezhi"/>
+     <addaction name="actionhuamianshezhi"/>
+    </widget>
+    <addaction name="separator"/>
+    <addaction name="menuwenjian"/>
+    <addaction name="separator"/>
+    <addaction name="menubofang"/>
+    <addaction name="separator"/>
+    <addaction name="menugongju"/>
+    <addaction name="separator"/>
+    <addaction name="menushezhi"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="actiondakaiwenjian">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actiondakaiwenjianjia">
+   <property name="text">
+    <string>打开文件夹</string>
+   </property>
+  </action>
+  <action name="actionjietu">
+   <property name="text">
+    <string>截图</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+A</string>
+   </property>
+  </action>
+  <action name="actionquanping">
+   <property name="text">
+    <string>全屏</string>
+   </property>
+   <property name="shortcut">
+    <string>Space</string>
+   </property>
+  </action>
+  <action name="actionbofangshezhi">
+   <property name="text">
+    <string>播放设置</string>
+   </property>
+  </action>
+  <action name="actionrejianshezhi">
+   <property name="text">
+    <string>热键设置</string>
+   </property>
+  </action>
+  <action name="actionshengyinshezhi">
+   <property name="text">
+    <string>声音设置</string>
+   </property>
+  </action>
+  <action name="actionhuamianshezhi">
+   <property name="text">
+    <string>画面设置</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

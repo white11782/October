@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/bofang.png</file>
+        <file>image/cut.png</file>
+        <file>image/next.png</file>
+        <file>image/previous.png</file>
+        <file>image/stop.png</file>
+        <file>image/volume.png</file>
+        <file>myStyle.qss</file>
+        <file>image/volume_hover.png</file>
+        <file>image/volume_press.png</file>
+        <file>image/quanping.png</file>
+        <file>image/suoxiao.png</file>
+        <file>image/backgroundimage.jpg</file>
+    </qresource>
+</RCC>
